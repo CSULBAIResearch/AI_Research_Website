@@ -239,7 +239,7 @@ p span{
 
 /* Start Hero Section */
 #hero {
-    background-image: url(/template/image/AI_bg.png);
+    background-image: url("/template/image/AI_bg.png");
     background-size: cover;
     background-position: top center;
     position: relative;
