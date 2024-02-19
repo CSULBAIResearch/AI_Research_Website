@@ -389,11 +389,28 @@ p span{
     padding: 100px 0;
 }
 
+#members .member-header{
+    /* background-color: red; */
+    margin-top: 25px;
+}
+
 .member-slide-container{
     max-width: 100%;
     width: 100%;
     /* background-color: pink; */
     padding: 40px 0;
+}
+
+.advisor-slide-container{
+    max-width: 100%;
+    width: 100%;
+    /* background-color: pink; */
+    padding: 40px 0;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .member-slide-content{
