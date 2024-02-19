@@ -239,7 +239,7 @@ p span{
 
 /* Start Hero Section */
 #hero {
-    background-image: url("/template/image/AI_bg.png");
+    background-image: url("../image/AI_bg.png");
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -510,28 +510,28 @@ p span{
 
 /*ICON*/
 .member-icon.email {
-    background-image: url('/template/icon/email_small.png');
+    background-image: url('../icon/email_small.png');
 }
 
 .member-icon.github {
-    background-image: url('/template/icon/github.png');
+    background-image: url('../icon/github.png');
 }
 
 .member-icon.linkedin {
-    background-image: url('/template/icon/linkedin.png');
+    background-image: url('../icon/linkedin.png');
 }
 
 /*ICON HOVER*/
 .member-icon.email:hover{
-    background-image: url(/template/icon/email_small_hover.png);
+    background-image: url('../icon/email_small_hover.png');
 }
 
 .member-icon.github:hover{
-    background-image: url(/template/icon/github_hover.png);
+    background-image: url('../icon/github_hover.png');
 }
 
 .member-icon.linkedin:hover{
-    background-image: url(/template/icon/linkedin_hover.png);
+    background-image: url('../icon/linkedin_hover.png');
 }
 
 
