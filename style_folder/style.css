@@ -401,17 +401,7 @@ p span{
     padding: 40px 0;
 }
 
-.advisor-slide-container{
-    max-width: 100%;
-    width: 100%;
-    /* background-color: pink; */
-    padding: 40px 0;
-    background-color: red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
+
 
 .member-slide-content{
     overflow: hidden;
@@ -420,7 +410,7 @@ p span{
 }
 
 .card{
-    /* width:320px; */
+    width:320px;
     /* min-height: 350px; */
     border-radius: 25px;
     background-color: #dcdcdc;
@@ -510,6 +500,7 @@ p span{
     gap:10px;
     /* background-color: red; */
     padding: 0 10px;
+    /* bottom: 0; */
 }
 
 .member-icon{
@@ -585,9 +576,73 @@ p span{
 }
 
 
-
 /* End Member Section */
 
+/* Start Advisor Section */
+#advisor{
+    background: radial-gradient(#515190,#000);
+    position: relative;
+    z-index: 1;
+}
+
+#advisor::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top:0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .5;
+    z-index: -1;
+}
+
+#advisor .advisor{
+    flex-direction: column;
+    max-width: 90vw; 
+    margin: 0 auto; 
+    padding: 100px 0;
+}
+
+#advisor .advisor-header{
+    margin-top: 5px;
+}
+
+.advisor-slide-container{
+    max-width: 100%;
+    width: 100%;
+    /* background-color: pink; */
+    padding: 40px 0;
+}
+
+.advisor-slide-content{
+    overflow: hidden;
+    margin: 0 40px;
+    border-radius: 25px;
+    /* background-color: yellow; */
+}
+/* 
+.advisor-slide-content .swiper-wrapper{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+} */
+
+/* End Advisor Section */
+
+/* Start Falculty Advisor Section */
+.faculty-advisor-slide-content{
+    overflow: hidden;
+    margin: 0 40px;
+    border-radius: 25px;
+    /* background-color: red; */
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* End Falculty Advisor Section */
 
 /* Start Contact Session */
 #contact{
@@ -665,11 +720,11 @@ p span{
 }
 
 #contact .contact-info a{
-    color: #28a08c;
+    color: #14213d;
 }
 
 #contact .contact-info a:hover{
-    color: #14213d;
+    color: #28a08c;
 }
 /* End Contact Session*/
 
