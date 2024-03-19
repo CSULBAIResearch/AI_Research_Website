@@ -13,6 +13,8 @@ html{
     scroll-behavior: smooth;
 }
 
+
+
 a{
     color: white;
     text-decoration: none;
@@ -356,7 +358,7 @@ p span{
 
 .service-top p{
     text-align: left;
-    font-size: clamp(2rem, 2.5vw, 2.5rem);
+    font-size: clamp(1.6rem, 2.5vw, 2.5rem);
     line-height: 1.4;
     font-weight: 400;
 }
